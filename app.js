@@ -18,7 +18,7 @@ const mongoose = require('./db/dbconection')
  */
 const app = express();
 const server = http.createServer(app);
-port = process.env.PORT || 3000
+port = process.env.PORT || 80
 server.listen(port, function() {
   console.log('Listening on ' + port);
 })
